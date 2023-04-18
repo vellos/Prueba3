@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imagen de fondo con texto centrado</title>
+	<style>
+			#midiv {
+			cursor: none;
+		}
+		body {
+			background: url(https://i.pinimg.com/originals/af/da/95/afda95334e6384e8559c16169b173333.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=);
+			overflow: hidden;
+		}
+	
+		.texto-centrado {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+		}
+	</style>
+</head>
+<body>
+	<div class="texto-centrado">
+		<p>Real Madrid</p>
+	</div>
+</body>
+</html>
